@@ -1,0 +1,342 @@
+header {
+  background-color: black;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+header #header_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #header_title h1 {
+  font-size: 35px;
+  margin: 30px 40% 0 20px;
+}
+
+header #header_title img {
+  height: 100px;
+  width: 100px;
+}
+
+header #header_title p {
+  margin: 35px 20px 20px 0;
+}
+
+header #menu {
+  width: 100%;
+}
+
+header #menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#top_img {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.content_title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content1 {
+  margin: 0 0 50px 0;
+}
+
+.content1 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content1 .box .box_item img {
+  width: 100px;
+  height: 70px;
+}
+
+.content2 {
+  margin-top: 150px;
+}
+
+.content2 .box .box_item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content2 .box .box_item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.content3 {
+  margin-top: 150px;
+}
+
+.content3 .box {
+  margin: 0 20%;
+  overflow: visible;
+}
+
+.content3 .box img {
+  float: left;
+  margin: 0 20px 20px 0;
+  height: 200px;
+}
+
+#information {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#information #information_title {
+  font-size: 30px;
+  margin: 50px 0 10px 0;
+}
+
+#information .box {
+  margin: 0 10%;
+}
+
+#information .box p {
+  margin: 5px;
+}
+
+#company {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#company #company_title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#company .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#inquiry {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#inquiry #inquiry_title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#inquiry input {
+  width: 300px;
+}
+
+#inquiry #inquiry_box {
+  width: 500px;
+  height: 300px;
+}
+
+#inquiry p {
+  margin: 10px;
+}
+
+#inquiry .submit_btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-image: url(/images/bg_ocean_suiheisen.jpeg);
+}
+
+footer a {
+  color: black;
+}
+
+footer #sp_img {
+  display: none;
+}
+
+footer .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .menu_list img {
+  height: 100px;
+  width: 100px;
+}
+
+footer .menu_list .list_item {
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+  header {
+    background-color: black;
+    color: #fff;
+  }
+  header #header_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header #header_title h1 {
+    font-size: 20px;
+    margin: 10% 15%;
+  }
+  header #header_title img {
+    height: 100px;
+    width: 100px;
+  }
+  header #header_title p {
+    display: none;
+  }
+  header #menu {
+    display: none;
+  }
+  .content1 {
+    margin: 30px 0;
+  }
+  .content1 .box {
+    display: block;
+  }
+  .content1 .box .box_item {
+    margin: 0 40% 50px 40%;
+  }
+  .content1 .box .box_item img {
+    width: 100px;
+    height: 70px;
+  }
+  .content2 {
+    margin-top: 150px;
+  }
+  .content2 .box .box_item1 img {
+    width: 50%;
+    height: 200px;
+  }
+  .content2 .box .box_item1 p {
+    margin: 20px;
+  }
+  .content2 .box .box_item2 {
+    display: block;
+  }
+  .content2 .box .box_item2 iframe {
+    width: 100%;
+  }
+  .content2 .box .box_item2 p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .content3 {
+    margin-top: 150px;
+  }
+  .content3 .box {
+    width: 100%;
+    margin: 0;
+  }
+  .content3 .box img {
+    width: 200px;
+    margin: 0 20px 20px 0;
+    height: 200px;
+  }
+  .content3 .box .content3_text2 {
+    display: none;
+  }
+  #company {
+    margin-top: 150px;
+    text-align: center;
+  }
+  #company #company_title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #company .box {
+    display: block;
+  }
+  #company .box iframe {
+    width: 100%;
+  }
+  #inquiry {
+    margin-top: 50px;
+    text-align: center;
+  }
+  #inquiry #inquiry_title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  #inquiry input {
+    width: 300px;
+  }
+  #inquiry #inquiry_box {
+    width: 350px;
+    height: 300px;
+  }
+  #inquiry p {
+    margin: 10px;
+  }
+  #inquiry .submit_btn {
+    margin-top: 20px;
+  }
+  #footer_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #footer_menu #sp_img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 10px 0 0 20px;
+  }
+  #footer_menu #footer_img {
+    display: none;
+  }
+  #footer_menu .menu_list {
+    display: block;
+    list-style: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 15%;
+  }
+  #footer_menu .menu_list .list_item {
+    margin: 10px 0;
+  }
+  #footer_menu p {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=index.css.map */
